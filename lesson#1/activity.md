@@ -19,7 +19,9 @@ Scrivere un programma che restituisca il risultato di tutte le possibile combina
 Scrivere un programma che, date due variabili a e b rispettivamente uguali a 58 e 43, ne stampi il risultato.
 
 ## Esercizio
-Scrivere un programma che, date tre variabili x, y, z, rispettivamente uguali a 3, 4 e 5, ne calcoli prima la somma, e poi la moltiplicazione.
+Scrivere un programma che, date tre variabili x, y, z, 
+rispettivamente uguali a 3, 4 e 5, ne calcoli prima la somma, 
+e poi la moltiplicazione.
 
 ## Esercizio
 Stampa il risultato della somma tra 328 e 7789.
@@ -31,8 +33,6 @@ b. True and not false (Notice the capitalization.)
 c. True or True and False
 d. not True or not False
 e. True and not 0
-Chapter 5. Making Choices • 94
-report erratum • discuss
 f. 52 < 52.3
 g. 1 + 52 < 52.3
 h. 4 != 4.0
@@ -124,7 +124,7 @@ Quale di questi è un esempio di Pascal Case?
 * MyVariableName = "Paperino"
 
 ## Esercizio
-Crea tre variabili e assegna loro i nomi di 3 personaggi di Topolino in una sola riga.
+Crea tre variabili e assegna loro i nomi di 3 personaggi di Topolino e lo stampiamo in una sola riga.
 
 ## Esercizio
 Crea tre variabili e assegna loro "Paperon de Paperoni".
@@ -182,7 +182,8 @@ c = a + " " + b
 ```
 
 ## Esercizio 
-Stampa una stringa che sia esattamente uguale a questa: Un tempo l'Iran si chiamava "Persia".
+Stampa una stringa che sia esattamente uguale a questa:
+Un tempo l'Iran si chiamava "Persia".
 
 ## Esercizio
 Fai di modo che il risultato della seguente stringa sia come riportato successivamente.
@@ -212,7 +213,7 @@ a.islower()
 a.isdecimal()
 a.isnumeric()
 a.isspace()
-a.alnum()
+a.isalnum()
 ```
 
 ## Esercizio
