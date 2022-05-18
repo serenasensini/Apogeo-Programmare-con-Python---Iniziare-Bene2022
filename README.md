@@ -1,4 +1,4 @@
-# Apogeo-Programmare-con-Python---Iniziare-Bene2021
+# Apogeo-Programmare-con-Python---Iniziare-Bene2022
 
 ## Descrizione
 Repository del codice utilizzato durante il corso Apogeo 2021-2022.
