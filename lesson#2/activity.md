@@ -56,7 +56,8 @@ if b > a:
 ```
 
 ## Esercizio
-Scrivi un programma che trovi tutti questi numeri che sono divisibili per 7 ma non sono multipli di 5.
+Scrivi un programma che trovi tutti quei numeri che sono divisibili per 
+7 ma non sono multipli di 5.
 
 ## Esercizio
 Scrivere un programma in grado di calcolare il fattoriale di un dato numero.
@@ -141,7 +142,7 @@ I.e: 1 => "Gennaio", 2 => "Febbraio", ecc.
 ```
 
 ## Esercizio
-Scrivi un programma Python per verificare se un alfabeto è una vocale o una consonante.
+Scrivi un programma Python per verificare se una parola contiene solo vocali o meno.
 
 ## Esercizio
 Cosa stampa?
