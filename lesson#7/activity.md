@@ -191,6 +191,5 @@ print(platform.processor())
 print(platform.machine())
 print(platform.platform())
 print(platform.system())
-print(platform.system())
 
 ```

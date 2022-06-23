@@ -74,4 +74,36 @@ import platform as pf
 #     # def __init__(self, nome=None):
 #     #     self.nome = nome
 
-print("hello", "world", "python", "!", sep="\n")
+# print("hello", "world", "python", "!", sep="\n")
+
+# N.8
+# import random
+#
+# sample_list = ['A', 'B', 'C', 'D', 'E']
+#
+# print("Original list : ")
+# print(sample_list)
+#
+# random.shuffle(sample_list)
+# print("\nAfter the first shuffle : ")
+# print(sample_list)
+
+# N.9
+
+# import platform
+#
+# print(platform.architecture())
+# print(platform.processor())
+# print(platform.machine())
+# print(platform.platform())
+# print(platform.system())
+
+# import math
+#
+# print(math.pi)
+
+# import sys
+#
+#
+# print(sys.platform)
+# print(sys.version)
