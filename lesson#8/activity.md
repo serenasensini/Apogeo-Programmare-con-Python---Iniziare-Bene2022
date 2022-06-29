@@ -16,7 +16,7 @@ Aprire il file nella cartella data/cupcake.txt, leggerlo e contare il numero di 
 Aprire il file nella cartella data/proverbi.txt e, per ogni riga, leggere il proverbio e richiedere all'utente di completarlo.
 
 ## Esercizio n.5 
-Aprire il file nella cartella data/test.txt... Ops! Non esiste. Gestire l'eccezione in maniera opportuna usando try/catch.
+Aprire il file nella cartella data/test.txt... Ops! Non esiste. Gestire l'eccezione in maniera opportuna usando try/except.
 
 ## Esercizio n.6
 Aprire il file nella cartella data/cupcake.txt e leggere i primi 15 caratteri.

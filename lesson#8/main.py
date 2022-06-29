@@ -136,3 +136,79 @@ for parola in dolci:
         dizionario["donut"] = dizionario["donut"] + 1
 
 print(dizionario)
+
+# SOLUZIONE N.1
+
+# data/lorem.txt
+
+# primo_file = open("C:\\Users\\serena.sensini\\PycharmProjects\\Apogeo-Programmare-con-Python---Iniziare-Bene2021\\lesson#8\\data\\lorem.txt", "w")
+#
+# primo_file.write("questo è il primo esercizio")
+#
+# primo_file.close()
+
+# SOLUZIONE N.2
+
+# file = open("C:\\Users\\serena.sensini\\PycharmProjects\\Apogeo-Programmare-con-Python---Iniziare-Bene2021\\lesson#8\\data\\lorem.txt", "r")
+#
+# contenuto = file.read()
+#
+# print(contenuto)
+#
+# file.close()
+
+
+# SOLUZIONE N.4
+
+# data/proverbi.txt
+
+# 1. LEGGERE FILE RIGA X RIGA
+# 2. PER OGNI RIGA, CHIEDERE ALL'UTENTE DI COMPLETARE IL PROVERBIO
+# 3. AGGIORNARE IL FILE
+# 4. LEGGERE IL FILE AGGIORNATO
+
+# proverbi = open("data/proverbi.txt", "r")
+#
+# contenuto = proverbi.readlines()
+#
+# print(contenuto)
+#
+# proverbi_aggiornati = []
+#
+# for riga in contenuto:
+#     riga = riga.replace("\n", "")
+#     print(riga)
+#     fine_proverbio = input("Completa il proverbio: ")
+#     proverbi_aggiornati.append(riga + " " + fine_proverbio)
+#
+# print(proverbi_aggiornati)
+#
+# file_proverbi = open("data/nuovi_proverbi.txt", "w")
+#
+# for proverbio in proverbi_aggiornati:
+#     file_proverbi.write(proverbio + "\n")
+#
+# file_proverbi.close()
+
+# NON FUNZIONA
+# word = open("data/word.docx", "r")
+#
+# print(word.read())
+
+# SOLUZIONE N.5
+
+# data/test.txt
+
+try:
+    file = open("data/test.txt", "r")
+except FileNotFoundError as e:
+    print("Il file non esiste. Te lo creo io!")
+    file = open("data/test.txt", "w")
+    file.close()
+else:
+    file = open("data/test.txt", "a")
+    file.write("pluto")
+finally:
+    file = open("data/test.txt", "r")
+    print(file.read())
+
